@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(255, 255, 255);
+
+}
+
+div#inter {
+    width: 250px;
+    height: 100vh;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin: -19px 0px 0px -30px;
+    padding: 0px 18px 0px 25px;
+}
+
+#menu li {
+    font-size: 30px;
+    margin: 2px 20px 0px -45px;
+    list-style: none;
+    padding: 0px 8px;
+}
+
+#menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#menu h1 {
+    font-size: 27px;
+    text-align: center;
+    border-bottom: 5px white solid;
+
+}
+
+#menu h2 {
+    font-size: 27px;
+    text-align: center;
+}
+
+div#barra {
+    background-color: rgb(94, 94, 94);
+    color: white;
+    height: 100px;
+    margin: -29px 0px 0px -30px;
+    padding: 20px 15px 0px 25px;
+    text-align: center;
+}
+
+#roupas {
+    display: block;
+    position: relative;
+    width: 300px;
+    left: 300px;
+    top: -900px;
+    border: 1px solid black;
+    box-shadow: 20px 0px 20px gray;
+    padding: -200px;
+}
+
+#roupas img {
+    width: 100%;
+    height: 100%;
+}
+
+div#roupas figcaption {
+    position: absolute;
+    top: 0px;
+    font-size: 20px;
+}
