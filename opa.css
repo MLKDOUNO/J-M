@@ -36,6 +36,7 @@ div#inter {
     text-align: center;
 }
 
+
 div#barra {
     background-color: rgb(94, 94, 94);
     color: white;
@@ -47,10 +48,12 @@ div#barra {
 
 #roupas {
     display: block;
-    position: relative;
+    position: absolute;
     width: 300px;
     left: 300px;
-    top: -900px;
+    top: -200px;
+    max-width: 300px;
+    top: 10vh;
     border: 1px solid black;
     box-shadow: 20px 0px 20px gray;
     padding: -200px;
@@ -65,4 +68,36 @@ div#roupas figcaption {
     position: absolute;
     top: 0px;
     font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    div#inter {
+        width: 80px;
+        margin: -10px 0px 0px -30px;
+    }
+
+    nav#menu h1 {
+        font-size: 15px;
+        border-bottom: 1px white solid;
+    }
+
+    nav#menu h2 {
+        font-size: 20px;
+    }
+
+    nav#menu li {
+        font-size: 20px;
+    }
+
+    #roupas {
+        max-width: 100px;
+        width: 50px;
+        left: 120px;
+        top: 110px;
+    }
+
+    div#roupas img {
+        width: 100%;
+        height: 5vh;
+    }
 }
